@@ -1,0 +1,223 @@
+:root {
+    --color-body: #434455;
+    --lofo-web: #404bbf;
+    --lofo-stydio: #2e2f42;
+    --bg-color-body:#ffffff;
+    --dop-bg-color: #F4F4FD;
+    --button-color: #4D5AE5
+}
+
+/* Начало */
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(--bg-color-body)
+
+}
+              /* Точки  и Силки*/
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+
+             /* Шапка */
+.header {
+    background-color: var(--bg-color-body);
+}
+
+.header-logo {
+font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+        color: var(--button-color);
+}
+.header-studio {
+    
+    color: var(--lofo-stydio);
+}
+.header-link {
+    font-weight: 500;
+    text-decoration: none;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--lofo-stydio);
+}
+.header-link:hover,
+.header-link:focus{
+   color:var(--lofo-web);
+}
+.address{
+    font-style: normal;
+}
+
+.contact-link {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-body);
+}
+.contact-link:hover,
+.contact-link:focus{
+color: var(--lofo-web);}
+
+/* section1 */
+.section-hero{
+background-color:var(--lofo-stydio);
+}
+ .hero-title{
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--bg-color-body);
+ }
+
+ .button-hero{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    align-items: center;
+    color: var(--bg-color-body);
+    background-color: var(--button-color);
+ }
+.button-hero:hover,
+.button-hero:focus{
+    background-color:var(--lofo-web) ;
+}
+ /* section2 */
+ .feature-subtitle{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--lofo-stydio);
+ }
+
+ .feature-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--color-body);
+ }
+ /* section3 */
+.product-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--lofo-stydio);
+}
+
+/* section4 */
+ .team-section{
+        background-color: var(--dop-bg-color);
+ }
+
+ .team-item{
+    background-color: var(--bg-color-body);
+ }
+
+.team-title{
+    
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: var(--lofo-stydio);
+}
+
+.team-subtitle{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--lofo-stydio);
+}
+
+.team-text{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--color-body);
+}
+
+/* footer */
+
+.footer{
+        background-color: var(--lofo-stydio);
+}
+
+.footer-text{
+    
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--bg-color-body);
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    color:var(--button-color);
+}
+
+.footer-studio {
+    
+font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+line-height: 1.17;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--dop-bg-color);
+}
+
+
+
+/* portfolio */
+.button-link{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: var(--dop-bg-color);
+    color: var(--button-color);
+}
+
+.button-link:hover,
+.button-link:focus{
+    color: var(--bg-color-body);
+    background-color: var(--lofo-web);
+}
+
+.photo-title{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--lofo-stydio)
+
+}
+.photo-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-body)
+}
