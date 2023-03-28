@@ -40,7 +40,7 @@ body{
     padding-right: 15px;
     padding-top: 0px;
     padding-bottom: 0px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .list {
@@ -279,6 +279,7 @@ max-width: 496px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--lofo-stydio);
+    margin-bottom: 8px;
 }
 
 .team-text{
@@ -336,18 +337,14 @@ color: var(--dop-bg-color);
                     
  .portfolio{
     padding-top: 96px ;
-    padding-bottom: 120px;
+    padding-bottom: 152px;
  }
 
 .button-list{
 display: flex;
 justify-content: center;
 gap: 24px;
-}
-
-.button-item{
-    margin-bottom: 72px;
-    /* outline:  1px solid red; */
+margin-bottom: 72px;
 }
 
 .button-link{
@@ -404,12 +401,13 @@ gap: 24px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--lofo-stydio)
+    color: var(--lofo-stydio);
+    margin-bottom: 8px;
 
 }
 .photo-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-body)
+    color: var(--color-body);
 }
